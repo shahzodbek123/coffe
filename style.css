@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+header {
+  padding: 30px 0;
+  background-color: #f3d7b7;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.coffee {
+  background-color: #f3d7b7;
+  padding: 150px 0;
+}
+.coffee .container {
+  display: flex;
+  gap: 150px;
+  justify-content: space-between;
+}
+
+.coffee-text h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.coffee-text p {
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 8px 14px;
+  border-radius: 18px;
+  color: white;
+  background: #0a775f;
+  border: none;
+}
+.coffee-img {
+  width: 50%;
+  position: relative;
+}
+.katta {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+}
+.kichik {
+  position: absolute;
+  z-index: 2;
+  top: -100px;
+  left: -100px;
+}
+
+.collection {
+  padding: 100px 0;
+  text-align: center;
+}
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.ota{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.ota img{
+    transition: 2s;
+}
+.ota-text{
+    text-align: left !important;
+}
+.ota img:hover{
+    transform: scale(1.2);
+}
+
+
+.icons{
+  gap: 10px;
+  font-size: 20px;
+  display: flex;
+}
+
+.coffee-img2 {
+  width: 50%;
+  position: relative;
+}
+.katta2 {
+  position: absolute;
+  width: 90%;
+  
+}
+.kichik2 {
+  position: absolute;
+  z-index: 2;
+  top: -100px;
+  left: -100px;
+}
+
+.asas{
+  display: flex;
+  margin: 100px 0;
+
+}
+
+
+.jh{
+  margin-left: 200px ;
+  text-align: left;
+}
+
+.jh h2{
+  
+  margin-bottom: 50px;
+  text-align: left;
+
+  
+
+}
+
+
+
+
+.aaa{
+  background-color: #C99B67;
+  display: flex;
+  padding: 150px;
+  gap: 150px;
+  height: 500px;
+}
+
+
+.aaaa{
+ top: 50px;
+}
+
+
+.imgg{
+  margin-top: -280px;
+}
+
+.ddd{
+  margin-bottom: 50px;
+  color: white;
+}
+
+.aaaa p{
+ color:#FFFFFF;
+} 
